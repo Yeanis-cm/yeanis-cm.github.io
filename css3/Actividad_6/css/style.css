@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Montserrat:wght@300;400;700&family=Raleway&family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    background: #7FBCD2;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    top: 15px;
+
+}
+
+/*.............................*/
+/*           Estatica          */
+/*.............................*/
+
+.static{
+    background: #A5F1E9;
+    width: 100px;
+    height: 100px;
+
+    position: static;
+    left: 500px;
+    bottom: 20px;
+}
+
+/*.............................*/
+/*           Relativa          */
+/*.............................*/
+
+.normal{
+    width: 100px;
+    height: 100px;
+    background: #7FBCD2;
+
+}
+.relative{
+    width: 100px;
+    height: 100px;
+    top: 60px;
+    background: #A5F1E9;
+
+    position:relative; 
+    left: 60px; 
+    top: 30px;
+}
+
+/*.............................*/
+/*           Absoluta          */
+/*.............................*/
+
+.caja-padre{
+    background: #7FBCD2;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.absolute{
+    width: 100px;
+    height: 100px;
+    top: 60px;
+    background: #A5F1E9;
+    border-radius: 50%;
+
+    position: absolute; 
+    left: 20px; 
+    top: 20px;
+}
+
+/*.............................*/
+/*            Fixed            */
+/*.............................*/
+
+.fixed{
+    background: #A5F1E9;
+    width: 100px;
+    height: 100px;
+
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}

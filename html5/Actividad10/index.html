@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario clínico</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body style="font-family: 'Raleway', sans-serif; color:#fff; background-color: #DFF6FF;">
+
+
+        <div style="background-color: #06283D; padding: 17px; width: 600px; margin: auto;">
+
+            <table style="margin: auto;">
+ 
+                    <tr >
+                        <th colspan="2" style="padding-top: 30px; padding-bottom: 30px">
+
+                                <img src="img/dental_clinic.svg" height="500px" width="500px">
+                    
+                        </th>
+                    </tr>
+                 
+
+                <tr style="text-align: center; background-color: #4298d1; margin-bottom: 100px;">
+
+                    <th colspan="4" style="font-size: 30px; padding:5px; "> <hr> Datos Personales Del Paciente <hr>
+                        
+                    </th>
+
+                    <hr>
+                </tr>
+        
+                <tr>
+                    <td style="padding: 10px;">
+                        <label>Tipo de Documento</label>
+                    </td>
+
+                    <td>
+                        <select name="tipo_de_documento" id="">
+        
+                            <option value="0">-Seleccione-</option>
+                            <option value="1">Cédula de Ciudadanía</option>
+                            <option value="2">Tarjeta de identidad</option>
+                            <option value="3">Cédula de Extranjería</option>
+                            
+                        </select>
+                    </td>
+                        
+                <tr>
+
+                    <td style="padding: 10px;">
+                        <label>N° de Identificación</label>
+                    </td>
+                    <td>
+                        <input type="number" placeholder="Número sin espacios">
+                    </td>
+        
+                </tr>
+        
+        
+                <tr>
+                    <td style="padding: 10px;">
+                        <label>Foto</label>
+                    </td>
+                    <td>
+                        <input type="file">
+                    </td>
+                </tr>
+        
+        
+                <tr>
+                    <td style="padding: 10px;">
+                        <label> Nombres </label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Escriba su/s nombre/s">
+                    </td>
+                </tr>
+        
+        
+                <tr>
+                    <td style="padding: 10px;">
+                        <label> Apellidos </label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Escriba sus Apellidos">
+                    </td>
+                </tr>
+        
+        
+                <tr>
+                    <td style="padding: 10px;">
+                        <label> Fecha de Nacimiento</label>
+                    </td>
+        
+                    <td style="padding: 10px;">
+                        <input type="date">
+                    </td>
+                </tr>
+        
+        
+                <tr>
+                    <td style="padding: 10px;">
+                        <label> Sexo </label>
+                    </td>
+                    <td>
+                        <input type="radio" value="M" name="sexo"> <span>Masculino</span>
+                        <input type="radio" value="F" name="sexo"> <span>Femenino</span>
+                    </td>
+                </tr>
+        
+                
+                <tr>
+                    <td style="padding: 10px;">
+                        <label>Nombre del Representante</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Nombre completo">
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td style="padding: 10px;">
+                        <label>Telefono</label>
+                    </td>
+                    <td>
+                        <input type="tel" placeholder="Número sin espacios">
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td style="padding: 10px;">
+                        <label>Sala</label>
+                    </td>
+                    <td>
+
+                        <select name="Sala" id="">
+
+                            <option value="0">-Seleccione-</option>
+                            <Option value="1">Emergencia</Option>
+                            <Option value="2">Sala A</Option>
+                            <Option value="3">Laboratorio</Option>
+                            <Option value="4">Rayos X</Option>
+                            <Option value="5">Hospitalización</Option>
+
+                        </select>
+
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td style="padding: 10px;">
+                        <label>Dirección</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Dirección">
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td style="padding: 10px;">
+                        <label>País</label>
+                    </td>
+                    <td>
+                        <select name="País" id="">
+                            
+                            <option value="0">-Seleccione-</option>
+                            <option value="1">Brasil</option>
+                            <option value="2">Ecuador</option>
+                            <option value="3">Veneuela</option>
+                            <option value="4">Perú</option>
+                            <option value="5">Colombia</option>
+
+                        </select>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td style="padding: 10px;">
+                        <label>Departamento</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Departamento">
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <label>Provincia</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Provincia">
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td style="padding: 10px;">
+                        <label>Distrito</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Distrito">
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td style="padding: 10px;">
+                        <label>Estado Civil</label>
+                    </td>
+                    <td>
+                        <select name="Estado_Civil" id="">
+
+                            <option value="0">-Seleccione-</option>
+                            <option value="1">Soltero</option>
+                            <option value="2">Casado</option>
+                            <option value="3">Viudo</option>
+                            <option value="4">Unión Libre</option>
+                            <option value="5">Separado</option>
+                            <option value="6">Divorciado</option>
+
+                        </select>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td style="padding: 10px;">
+                        <label>Emergencia</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Descripción de la emergencia">
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td style="padding: 10px;">
+                        <label>Grupo Sanguíneo</label>
+                    </td>
+                    <td>
+
+                        <select name="grupo_sanguíneo" id="">
+
+                            <option value="0">-Seleccione-</option>
+                            <option value="1">A+</option>
+                            <option value="2">A-</option>
+                            <option value="3">B+</option>
+                            <option value="4">B-</option>
+                            <option value="5">AB+</option>
+                            <option value="6">AB-</option>
+                            <option value="5">O+</option>
+                            <option value="6">O-</option>
+
+                        </select>
+
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td style="padding: 10px;">
+                        <label>VIH</label>
+                    </td>
+                    <td>
+                        <input type="radio" value="S" name="VIH"> <span>Sí</span>
+                        <input type="radio" value="N" name="VIH"> <span>No</span>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td style="padding: 10px;">
+                        <label>Ocupación</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Ocupación">
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td style="padding: 10px;">
+                        <label>Peso</label>
+                    </td>
+                    <td>
+                        <input type="number" placeholder="Peso">
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td style="padding: 10px;">
+                        <label>Talla</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Talla">
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td style="padding: 10px;">
+                        <label>Alérgico</label>
+                    </td>
+                    <td>
+                        <textarea rows="3" placeholder="Escriba aqui su comentario..."></textarea>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td style="padding: 10px;">
+                        <label>Medicamento Que Toma Actualmente</label>
+                    </td>
+                    <td>
+                        <textarea rows="3" placeholder="Escriba aqui su comentario..."></textarea>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td style="padding: 10px;">
+                        <label>Enfermedades Que Tiene</label>
+                    </td>
+                    <td>
+                        <textarea rows="3" placeholder="Escriba aqui su comentario..."></textarea>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td style="padding: 17px;">
+                        <input type="submit" value="Enviar"> 
+                        <input type="reset" value="Limpiar">
+                    </td>
+                </tr>
+        
+            </table>
+
+            <hr>
+
+        </div>
+
+    
+</body>
+</html>

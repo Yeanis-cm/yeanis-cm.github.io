@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Montserrat:wght@300;400;700&family=Raleway&family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*.........................................*/
+/*           Contenedor principal          */
+/*.........................................*/
+
+.contenedor{
+    width: 80%;
+    height: 100vh;
+    background-color: #FAF5E4;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin:10px; */
+    
+}
+
+/*.........................................*/
+/*         Contenedor Item 1 y 3           */
+/*.........................................*/
+
+.item0{
+    background-color: #A7D2CB;
+    width: 80%;
+    height: 70vh;
+    padding: 10px;
+    margin:10px;
+}
+
+/*.........................................*/
+/*           Contenedor Item 2             */
+/*.........................................*/
+
+.item2{
+    width: 80%;
+    height: 70vh;
+    background-color: #A7D2CB;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/*.........................................*/
+/*           Contenedor Items              */
+/*.........................................*/
+
+.items{
+    /* display: flex;
+    flex-direction: row; */
+    background-color: #874C62;
+    width: 400px;
+    height: 250px;
+    margin: 10px;
+    flex-wrap: wrap;
+}
